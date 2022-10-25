@@ -7,6 +7,7 @@ import Hello from './components/Hello';
 import Name from './components/Name';
 import Message from './components/Message';
 import ContainerSample from './components/ContainerSample';
+import ContextSample from './components/ContextSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +18,7 @@ root.render(
     <Name />
     <Message />
     <ContainerSample />
+    <ContextSample />
   </React.StrictMode>
 );
 
